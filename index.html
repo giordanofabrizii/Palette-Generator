@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+    <title>Color Picker</title>
+</head>
+<body>
+    <main>
+        <section class="mobile"> <!-- per dispositivi mobili-->
+            <h3>Per generare clicca qui --></h3>
+            <button onclick="mobile()">Genera</button>
+        </section>
+
+        <div class="color"> <!-- ognuno di questi div e' una palette -->
+            <section class="info">
+                <button class="lucchetto" id= 0 onclick="switchButton(0)">
+                    <span class="locked">Locked!</span>
+                    <span class="unlocked">Unlocked!</span>
+                </button>
+                <h2 class="testoDaCopiare"></h2>
+            </section>
+        </div>
+
+        <div class="color">
+            <section class="info">
+                <button class="lucchetto" id= 1 onclick="switchButton(1)">
+                    <span class="locked">Locked!</span>
+                    <span class="unlocked">Unlocked!</span>
+                </button>      
+                <h2 class="testoDaCopiare"></h2>
+            </section>
+        </div>
+
+        <div class="color">
+            <section class="info">
+                <button class="lucchetto" id= 2 onclick="switchButton(2)">
+                    <span class="locked">Locked!</span>
+                    <span class="unlocked">Unlocked!</span>
+                </button>
+                <h2 class="testoDaCopiare"></h2>
+            </section>
+        </div>
+
+        <div class="color">
+            <section class="info">
+                <button class="lucchetto" id= 3 onclick="switchButton(3)">
+                    <span class="locked">Locked!</span>
+                    <span class="unlocked">Unlocked!</span>
+                </button>
+                <h2 class="testoDaCopiare"></h2>
+            </section>
+        </div>
+
+        <div class="color">
+            <section class="info">
+                <button class="lucchetto" id= 4 onclick="switchButton(4)">
+                    <span class="locked">Locked!</span>
+                    <span class="unlocked">Unlocked!</span>
+                </button>
+                <h2 class="testoDaCopiare"></h2>
+            </section>
+        </div>
+
+    </main>
+    <script src="logic.js"></script>
+</body>
+</html>
